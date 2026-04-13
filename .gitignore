@@ -1,0 +1,32 @@
+# Python
+venv/
+.venv/
+env/
+bin/
+include/
+lib/
+share/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Database Data
+mysql_data/
+redis_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker & Logs
+*.log
+docker-compose.override.yml
